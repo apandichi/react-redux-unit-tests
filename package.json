@@ -5,12 +5,22 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.1.0"
+    "react-scripts": "1.1.0",
+    "react-toolbox": "^2.0.0-beta.12"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "toolbox": "react-toolbox-themr",
     "eject": "react-scripts eject"
+  },
+  "reactToolbox": {
+    "include": [
+      "TABS"
+    ],
+    "customProperties": {
+    },
+    "output": "src/assets/react-toolbox"
   }
 }
